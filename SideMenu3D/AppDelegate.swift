@@ -16,6 +16,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // 起動時の画面作成をソースで行う
+        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        
+        // Storyboardから画面作成
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let centerViewController = storyboard.instantiateViewControllerWithIdentifier("CenterViewController") as! CenterViewController
+        let sideMenuViewController = storyboard.instantiateViewControllerWithIdentifier("SideMenuViewController") as! SideMenuViewController
+        
+        // コンテナ画面の初期化
+        let containerViewController = ContainerViewController(center: centerViewController, sideMenu: sideMenuViewController)
+        
+        // 画面表示
+        self.window?.rootViewController = containerViewController
+        self.window?.makeKeyAndVisible()
+        
         return true
     }
 
