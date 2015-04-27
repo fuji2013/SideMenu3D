@@ -13,6 +13,9 @@
 		BDDDEB761AEDE12A0033AB55 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDDDEB751AEDE12A0033AB55 /* Images.xcassets */; };
 		BDDDEB791AEDE12A0033AB55 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDDDEB771AEDE12A0033AB55 /* LaunchScreen.xib */; };
 		BDDDEB851AEDE12A0033AB55 /* SideMenu3DTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDDEB841AEDE12A0033AB55 /* SideMenu3DTests.swift */; };
+		BDDDEB8F1AEDE3B70033AB55 /* CenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDDEB8E1AEDE3B70033AB55 /* CenterViewController.swift */; };
+		BDDDEB911AEDE3C40033AB55 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDDEB901AEDE3C40033AB55 /* SideMenuViewController.swift */; };
+		BDDDEB931AEDE3D00033AB55 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDDEB921AEDE3D00033AB55 /* ContainerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		BDDDEB7E1AEDE12A0033AB55 /* SideMenu3DTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SideMenu3DTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDDDEB831AEDE12A0033AB55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDDDEB841AEDE12A0033AB55 /* SideMenu3DTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu3DTests.swift; sourceTree = "<group>"; };
+		BDDDEB8E1AEDE3B70033AB55 /* CenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterViewController.swift; sourceTree = "<group>"; };
+		BDDDEB901AEDE3C40033AB55 /* SideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		BDDDEB921AEDE3D00033AB55 /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,9 @@
 				BDDDEB751AEDE12A0033AB55 /* Images.xcassets */,
 				BDDDEB771AEDE12A0033AB55 /* LaunchScreen.xib */,
 				BDDDEB6C1AEDE12A0033AB55 /* Supporting Files */,
+				BDDDEB8E1AEDE3B70033AB55 /* CenterViewController.swift */,
+				BDDDEB901AEDE3C40033AB55 /* SideMenuViewController.swift */,
+				BDDDEB921AEDE3D00033AB55 /* ContainerViewController.swift */,
 			);
 			path = SideMenu3D;
 			sourceTree = "<group>";
@@ -212,6 +221,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDDDEB911AEDE3C40033AB55 /* SideMenuViewController.swift in Sources */,
+				BDDDEB8F1AEDE3B70033AB55 /* CenterViewController.swift in Sources */,
+				BDDDEB931AEDE3D00033AB55 /* ContainerViewController.swift in Sources */,
 				BDDDEB711AEDE12A0033AB55 /* ViewController.swift in Sources */,
 				BDDDEB6F1AEDE12A0033AB55 /* AppDelegate.swift in Sources */,
 			);
@@ -411,6 +423,7 @@
 				BDDDEB8A1AEDE12A0033AB55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BDDDEB8B1AEDE12A0033AB55 /* Build configuration list for PBXNativeTarget "SideMenu3DTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +432,7 @@
 				BDDDEB8D1AEDE12A0033AB55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
